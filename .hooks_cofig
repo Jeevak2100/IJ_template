@@ -1,0 +1,4 @@
+BRANCH_NAME_REGEX: (develop$)|(feature|issue|bug|story|enhancement|develop|release|hotfix)/[-a-zA-Z0-9_]+$
+BRANCH_NAME_EXAMPLE: feature/[-a-zA-Z0-9_]+$
+COMMIT_MESSAGE_REGEX: ^[a-zA-Z].*
+COMMIT_MESSAGE_EXAMPLE: Update: 123 comit_message
