@@ -1,2 +1,42 @@
 *.class
 *.ctxt
+*.ear
+*.iml
+*.ipr
+*.iws
+*.jar
+*.jks
+*.log
+*.pyc
+*.pyo
+*.rar
+*.swp
+*.tar.gz
+*.war
+*.zip
+*.~
+code-module/spark-warehouse*
+.cache
+.claspath
+.DS_Store
+.ensime
+.ensime_cache
+.ensime_lucene
+.generated-mima*
+
+
+#key Files
+*.pub
+
+# IBM Eclipse specific files
+.metadata
+.loadpath
+.settings/
+
+
+
+# Temporary Files
+tmp/
+.*tmp
+*.bak
+.*~nib
