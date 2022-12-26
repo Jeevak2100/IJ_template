@@ -21,7 +21,7 @@
 
 
     <groupId>com.jeevabanking.im.ods</groupId>
-    <artifactId>codeModule_ArtifactId</artifactId>
+    <artifactId>codeModule</artifactId>
 
 
     <dependencies>
