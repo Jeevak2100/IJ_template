@@ -4,16 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
     <groupId>com.jeevabanking.im.ods</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>parent-data-Transform</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>IJ_template</name>
     <description>Template to create Scala project in IJ </description>
   
     <modules>
-      <modules>bd-code-module</modules>
-      <modules>script-module</modules>
+      <module>bd-code-module</module>
+        <module>script-module</module>
+
     </modules>
       
   
@@ -35,16 +37,17 @@
       <repo.name>1.1.1</repo.name>
       
       <!-- Sonar -->
-      <mvn.sonar.version>2.7.1<mvn.sonar.version>
-      <mvn.release.version>2.5.1<mvn.release.version>
-      <mvn.scm.version>1.9.4<mvn.scm.version>
+      <mvn.sonar.version>2.7.1</mvn.sonar.version>
+      <mvn.release.version>2.5.1</mvn.release.version>
+      <mvn.scm.version>1.9.4</mvn.scm.version>
     </properties>
 
 
-    <!-- scm tag with connection url 
+    <!-- scm tag with connection url -->
+    <!--
         <scm>
-          <connection>scm:git:ssh://got@ghe.service.group/ed-dcs/<!--repoName-->.git </connection>
+          <connection>scm:git:ssh://got@ghe.service.group/ed-dcs/<!-repoName ->.git </connection>
           <tag>${project.artifactId}-${project.version}</tag>
         </scm>
-    -->
+        -->
 </project>

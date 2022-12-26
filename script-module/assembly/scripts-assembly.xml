@@ -1,0 +1,24 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.1"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.1 https://maven.apache.org/xsd/assembly-2.1.1.xsd">
+        <id>scripts</id>
+        <formats>
+            <format>zip</format>
+        </formats>
+
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <!-- 1. Client script included -->
+        <fileset>
+            <directory>client-scripts</directory>
+            <useDefaultExcludes>false</useDefaultExcludes>
+        </fileset>
+        <!--2. gateway script included  -->
+        <fileset>
+            <directory>gateway-scripts</directory>
+            <useDefaultExcludes>false</useDefaultExcludes>
+        </fileset>
+
+    </fileSets>
+
+</assembly>
