@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<!--
+    <parent>
+        <groupId>parent Group id</groupId>
+        <artifactId>parent_artifactId</artifactId>
+        <version>parent</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+   -->
     <parent>
         <groupId>com.jeeva.curation</groupId>
         <artifactId>data-transformation</artifactId>
@@ -11,8 +19,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.jeeva.curation</groupId>
-    <artifactId>bd-code-module</artifactId>
+
+    <groupId>com.jeevabanking.im.ods</groupId>
+    <artifactId>codeModule</artifactId>
 
 
     <dependencies>
@@ -30,7 +39,37 @@
             <version>2.4.3</version>
         </dependency>
 
+        <!--
+       <dependency>
+           <groupId>org.apache.spark</groupId>
+           <artifactId>spark-sql_${scala.tools.version}</artifactId>
+           <version>${spark.version}</version>
+           <scope>provided</scope>
+       </dependency>
 
+      - Hive Dependency ->
+       <dependency>
+           <groupId>org.apache.spark</groupId>
+           <artifactId>spark-hive_${scala.tools.version}</artifactId>
+           <version>${spark.version}</version>
+           <scope>provided</scope>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.spark</groupId>
+           <artifactId>hive-contrib</artifactId>
+           <version>${hive.version}</version>
+           <scope>provided</scope>
+       </dependency>
+
+       <- TDD Dependency
+
+       <dependency>
+           <groupId>org.scalatest</groupId>
+           <artifactId>scalatest_${scala.binary.version}</artifactId>
+           <version>3.0.5</version>
+           <scope>provided</scope>
+       </dependency>
+-->
     </dependencies>
 
     <!-- Build -->
@@ -48,5 +87,5 @@
 
 
 
-    <!-- End   -->
+
 </project>

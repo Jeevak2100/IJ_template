@@ -4,18 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 
+<!--
     <parent>
-        <groupId>>com.jeeva.curation</groupId>
-        <artifactId>data-transformation</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>parent Group id</groupId>
+        <artifactId>parent_artifactId</artifactId>
+        <version>parent</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
+   -->
+    <parent>
+        <groupId>>com.jeevabanking.im.ods</groupId>
+        <artifactId>parent-data-Transform</artifactId>
+        <version>1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.jeeva.curation</groupId>
-    <artifactId>scriptModule</artifactId>
     <packaging>pom</packaging>
+
+    <artifactId>scriptModule</artifactId>
+
 
     <properties>
             <mvn.assembly.version>2.6</mvn.assembly.version>
